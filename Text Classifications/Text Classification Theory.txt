@@ -1,0 +1,25 @@
+ML Overview - 
+we will focus on Supervised Learning. 
+What is ML?
+Uses algos to learn from data - so that ML algo can later figure out what things are imp. 
+
+Things we could do - just 2 examples - 
+
+Text sentiment analyzis
+Email spam detection. 
+
+Metrics - 
+Accuracy, Recall, Precision, F1 
+
+accuracy = total correct predictions / total predictions. 
+
+But if we have unbalanced classes - we cant use accuracy. Lets say we have 1 ham and other spam text messages - and our model is wrong and always predicts spam only - then we get 99% accuracy. But when we use it in real life only then will we find out that our model is wrong. 
+
+We will need recall and precision. 
+
+RECALL = true positives / (true positives+false negatives)
+
+PRECISION = true positives / (true positives + false positives)
+
+F1 = 2* (precision * recall) / (precision + recall)
+
